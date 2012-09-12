@@ -27,7 +27,7 @@ Create a new file in ```config/initializers``` called ```_ENV.rb```
 ```
 You'll want to add this file to ```.gitignore```
 
-```/config/initializers/_ENV.rb```
+```/config/initializers/_ENV.rb ```
 
 == Usage
 
