@@ -1,9 +1,9 @@
 This is a very simple application for uploading files from your local machine to
 an Amazon s3 bucket for storage on the cloud.
 
-carrierwave
-fog
-rspec
+- carrierwave
+- fog
+- rspec
 
 == Installation
 
