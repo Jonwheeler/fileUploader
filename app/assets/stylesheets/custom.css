@@ -1,0 +1,28 @@
+body {
+  background: #eee;
+}
+
+.container {
+  background: white;
+  margin-top: 50px;
+  border: solid 1px #e3e3e3;
+  border-radius: 10px;
+}
+
+.well {
+  margin: 10px;
+}
+
+#element-in-bucket {
+  padding-left: 20px;
+  padding-bottom: 5px;
+}
+
+.navbar {
+  padding-top: 10px;
+  margin: 10px;
+}
+
+.navbar-inner {
+  text-align: center;
+}

@@ -6,9 +6,17 @@
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
+<div class="container">
+  <header class="navbar navbar-inverse">
+    <div class="navbar-inner">
+      <h1>amazon s3 fileUploader<small> @sputnik_43</small></h1>
+    </div>
+  </header>
 <body>
-
-<%= yield %>
-
+  <% flash.each do |key, value| %>
+  <%= value %>
+  <% end %>
+  <%= yield %>
 </body>
+</div>
 </html>

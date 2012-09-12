@@ -17,7 +17,7 @@ an Amazon s3 bucket for storage on the cloud.
 You'll need to set up an Amazon s3 bucket http://aws.amazon.com/s3/ and grab your
 Access_key_id and secret access key.
 
-![aws Secrets](http://farm9.staticflickr.com/8446/7979894062_b382e62f17_z.jpg)
+![aws Secrets](https://s3.amazonaws.com/jgw_uploader_app/uploads/upload/file/16/Selection_001.png)
 
 Create a new file in ```config/initializers``` called ```_ENV.rb```
 
@@ -35,7 +35,9 @@ You'll want to add this file to ```.gitignore```
   rails server
   localhost:3000
 ```
+== Screenshot
 
+![amazon s3 fileUploader](https://s3.amazonaws.com/jgw_uploader_app/uploads/upload/file/17/Selection_003.png)
 == MIT License
 
 Copyright (c) 2012-*
